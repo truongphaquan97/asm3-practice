@@ -1,0 +1,51 @@
+.side-shop {
+  width: 13%;
+  padding-top: 25px;
+}
+
+.side-shop > ul > li {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.side-shop > ul {
+  padding: 0;
+}
+
+.side-shop > ul > li > button:hover {
+  color: rgb(197, 153, 8);
+  font-weight: 900;
+}
+.side-shop > h4 {
+  font-style: italic;
+  font-weight: 400;
+  height: 40px;
+}
+.brand {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  opacity: 0.9;
+}
+.type-product {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 19px;
+}
+
+.change-color > button {
+  color: rgb(197, 153, 8);
+  font-weight: 900;
+}
+.type-product > button {
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.title-product {
+  font-family: "Alumni Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}

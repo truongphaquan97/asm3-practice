@@ -1,0 +1,89 @@
+.popup-box {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 80;
+  white-space: pre-wrap;
+  text-decoration: none;
+}
+
+.overlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 90;
+}
+
+.box {
+  position: relative;
+  width: 50%;
+  min-height: 300px;
+  background-color: white;
+  border: 1px solid white;
+  margin: 130px auto;
+  padding: 5px;
+  overflow: auto;
+  white-space: pre-wrap;
+  text-decoration: none;
+  z-index: 100;
+}
+.row {
+  padding-top: 0px;
+}
+.btn-close {
+  cursor: pointer;
+  float: right;
+}
+
+.popup-detail > .bg > h5 {
+  font-size: 28px;
+}
+
+.popup-detail > .bg > .popup-price {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.popup-text {
+  padding-top: 50px;
+}
+
+.popup-detail > .bg > button {
+  font-family: "Alumni Sans", sans-serif;
+  color: white;
+  background-color: rgb(41, 39, 38);
+  box-shadow: none;
+  outline-color: transparent;
+  border-style: none;
+  height: 2rem;
+  width: 10rem;
+  font-size: 24px;
+  opacity: 0.9;
+  padding-bottom: 36px;
+  font-weight: 600;
+}
+
+.fa-solid {
+  font-size: 20px;
+}
+
+.bg img {
+  width: 100%;
+  height: 500px;
+}
+
+.short {
+  height: fit-content;
+  max-height: 240px;
+  overflow: hidden;
+  /* word-break: break-word; */
+  text-overflow: ellipsis;
+  /* white-space: pre-line; */
+  /* white-space: nowrap; */
+}

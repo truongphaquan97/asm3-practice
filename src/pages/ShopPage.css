@@ -1,0 +1,105 @@
+.wrap-shop {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.wrap-title-shop {
+  display: flex;
+
+  margin-top: 40px;
+
+  justify-content: center;
+}
+.topic-shop {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(241, 241, 241);
+  height: 145px;
+  padding-top: 45px;
+}
+
+.topic-shop > h1 {
+  height: 80px;
+  width: 15%;
+  text-align: center;
+  font-family: "Alumni Sans", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.topic-shop > p {
+  height: 80px;
+  width: 15%;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Alumni Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.list-shop {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.sort-product > select {
+  text-align: center;
+  opacity: 0.9;
+}
+
+.page-a {
+  --bs-pagination-color: black;
+  --bs-pagination-active-bg: black;
+  --bs-pagination-active-color: white;
+  --bs-pagination-active-border-color: black;
+}
+
+.page-a-plus {
+  margin-left: 4px !important;
+}
+.page-change-background {
+  --bs-pagination-color: white;
+  --bs-pagination-active-bg: white;
+  --bs-pagination-active-color: black;
+  --bs-pagination-active-border-color: #dee2e6;
+}
+
+.page-a:hover {
+  --bs-pagination-hover-bg: black;
+  --bs-pagination-hover-color: white;
+}
+
+.whole-pan {
+  width: 200px;
+  float: right;
+  text-align: center;
+}
+.page-ul {
+  margin-left: 60px;
+}
+.text-pan {
+  margin-top: 0px;
+
+  font-size: 15px;
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.wrap-produst-list {
+  margin-top: 60px;
+  width: 53%;
+  font-size: 20px;
+}
+
+.wrap-all-product {
+  width: 57%;
+  padding-left: 2.5%;
+}
+
+.grid-container {
+  display: grid;
+  /* grid-template-columns: auto auto auto auto; */
+  gap: 10px;
+  width: 100%;
+}

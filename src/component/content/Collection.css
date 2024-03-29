@@ -1,0 +1,46 @@
+.collection {
+  width: 70%;
+}
+
+.wrap-collec {
+  justify-content: center;
+  display: flex;
+}
+
+.collection div p {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.text-collec p,
+.text-collec h5 {
+  justify-content: center;
+  display: flex;
+}
+
+.text-collec h5 {
+  font-style: italic;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.list-1 {
+  justify-content: space-between;
+  display: flex;
+}
+
+.list-1 img:hover {
+  opacity: 0.5;
+}
+
+.list-2 {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 40px;
+}
+.list-2 img:hover {
+  opacity: 0.5;
+}

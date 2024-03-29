@@ -1,0 +1,228 @@
+.wrap-cart {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.topic-cart {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(241, 241, 241);
+  height: 145px;
+  padding-top: 45px;
+}
+
+.topic-cart > h1 {
+  height: 80px;
+  width: 15%;
+  text-align: center;
+  font-family: "Alumni Sans", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  opacity: 0.9;
+}
+
+.topic-cart > p {
+  height: 80px;
+  width: 15%;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Alumni Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.title-shoping-cart {
+  justify-content: center;
+  display: flex;
+  margin: 70px 0px 30px 0px;
+}
+.title-shoping-cart > h2 {
+  width: 70%;
+  font-family: "Alumni Sans", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  opacity: 0.85;
+}
+.wrap-invoice {
+  font-family: "Alumni Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 1.5%;
+  margin-bottom: 50px;
+  opacity: 0.85;
+}
+.wrap-table {
+  width: 52%;
+  text-align: center;
+}
+.warning {
+  font-weight: 600;
+  font-size: 20px;
+  width: 22%;
+  opacity: 0.5;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 60%;
+}
+
+.tr-title {
+  background-color: rgb(245, 245, 245);
+  height: 3.5rem;
+  font-weight: 900;
+  font-size: 22px;
+}
+.remove-td {
+  padding-right: 15px;
+}
+
+.tr-map {
+  font-size: 25px;
+  font-weight: 700;
+}
+.td-img {
+  width: 85px;
+  height: 100px;
+}
+.table-opacity {
+  opacity: 0.7;
+}
+
+.td-button > button {
+  border-style: none;
+  width: 2rem;
+}
+.td-button {
+  width: 7rem;
+}
+.td-button > span {
+  width: 2.5rem;
+  padding: 0;
+}
+.cart-total {
+  width: 16.5%;
+  height: fit-content;
+  background-color: rgb(245, 245, 245);
+  padding: 40px;
+}
+
+.hidden-total {
+  width: 16.5%;
+  height: fit-content;
+  background-color: transparent;
+  padding: 40px;
+}
+
+.cart-total > div > h3 {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.subtotal {
+  border-bottom: 1px rgb(212, 212, 212) solid;
+  padding-bottom: 10px;
+}
+.sub-title {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.sub-price {
+  float: right;
+  margin-top: 5px;
+  font-size: 19px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.total-title {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.total-price {
+  float: right;
+  font-size: 24px;
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+.invoice-price {
+  margin-top: -5px;
+}
+
+.input-coupon,
+.input-coupon > input,
+.btn-coupon,
+.btn-coupon > button {
+  width: 100%;
+}
+.input-coupon > input {
+  opacity: 0.8;
+  height: 2rem;
+  outline-style: none;
+  outline-color: rgb(212, 212, 212);
+}
+::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.btn-coupon {
+  margin-top: -1px;
+}
+.btn-coupon > button {
+  background-color: rgb(41, 39, 38);
+  color: white;
+  border: none;
+  height: 2rem;
+
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.apply-coupon {
+  margin-left: 10px;
+}
+.fa-gift {
+  font-size: 13px;
+}
+
+.redirect-btn {
+  font-size: 23px;
+  opacity: 0.8;
+  height: 70.5px;
+  min-height: 70.5px;
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  padding: 1rem;
+}
+.change-continue-shopping {
+  font-size: 23px;
+  opacity: 0.8;
+  height: 70.5px;
+  min-height: 70.5px;
+  background-color: rgb(245, 245, 245);
+  width: 30%;
+  padding: 1rem;
+}
+.continue-shopping {
+  width: 28%;
+  float: left;
+  font-weight: 700;
+  border-style: none;
+  background-color: transparent;
+}
+.new-continue-shopping {
+  width: 80%;
+  float: left;
+  font-weight: 700;
+  border-style: none;
+  background-color: transparent;
+}
+.checkout {
+  width: 28%;
+  border: 1px black solid;
+  margin-left: 44%;
+  font-weight: 700;
+}

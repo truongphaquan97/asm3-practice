@@ -1,0 +1,68 @@
+.nav-header {
+  justify-content: center;
+  display: flex;
+}
+
+.header {
+  height: 5rem;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 70%;
+  display: flex;
+}
+
+
+.header button {
+  background-color: transparent;
+  border-color: transparent;
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+.left-header,
+.right-header {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.home-header button {
+  text-decoration: none;
+  color: rgb(248, 184, 7);
+  font-weight: 600;
+}
+
+.shop-header button {
+  text-decoration: none;
+  margin-left: 0.5rem;
+  color: rgb(105, 104, 104);
+  font-weight: 600;
+}
+
+.center-header {
+  color: rgb(105, 104, 104);
+  font-style: italic;
+  font-family: sans-serif;
+  /* margin-right: 30%; */
+  width: 20%;
+}
+.cart-header button {
+  text-decoration: none;
+  margin-right: 1rem;
+  font-weight: 600;
+  color: rgb(105, 104, 104);
+}
+
+.login-header button {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(105, 104, 104);
+}
+
+.logout-header button {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(105, 104, 104);
+}

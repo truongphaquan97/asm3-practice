@@ -1,25 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import RootLayout from "./pages/RootLayout";
+import ShopPage from "./pages/ShopPage";
+import DetailPage from "./pages/DetailPage";
+import CartPage from "./pages/CartPage";
+import CheckoutPage from "./pages/CheckoutPage";
+import LoginPage from "./pages/LoginPage";
+import RegisterPage, { action as registerAction } from "./pages/RegisterPage";
+import HomePage, { loader as productsLoader } from "./pages/HomePage";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { action as logoutAction } from "./pages/Logout";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    id: "root",
+    loader: productsLoader,
+    children: [
+      {
+        index: true,
+        element: <HomePage />,
+        loader: productsLoader,
+      },
+      {
+        path: "shop",
+        element: <ShopPage />,
+        loader: productsLoader,
+      },
+      {
+        path: "detail/:productId",
+        element: <DetailPage />,
+        loader: productsLoader,
+      },
+      {
+        path: "cart",
+        element: <CartPage />,
+        loader: productsLoader,
+      },
+      {
+        path: "checkout",
+        element: <CheckoutPage />,
+      },
+      {
+        path: "login",
+        element: <LoginPage />,
+      },
+      {
+        path: "register",
+        element: <RegisterPage />,
+        action: registerAction,
+      },
+      { path: "logout", action: logoutAction },
+    ],
+  },
+]);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <RouterProvider router={router}></RouterProvider>;
 }
 
 export default App;
